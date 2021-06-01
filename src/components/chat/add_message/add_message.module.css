@@ -1,0 +1,44 @@
+.add_message_container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.textarea {
+  resize: none;
+  height: 44px;
+  max-height: 44px;
+  min-height: 44px;
+  padding: 5px 9px;
+  padding-right: 40px;
+  transition: all 0.3s;
+  width: 100%;
+  color: #757a91;
+  border-color: #e6ebf5;
+  border-radius: 10px;
+}
+
+.btn {
+  color: #fff;
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  border-radius: 6px;
+  font-size: 20px;
+  position: absolute;
+  right: 20px;
+  top: 12%;
+  cursor: pointer;
+}

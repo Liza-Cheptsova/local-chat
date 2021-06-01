@@ -1,0 +1,39 @@
+.text_message {
+  position: relative;
+  /* background: #88b7d5; */
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-image: linear-gradient(
+    to top right,
+    rgb(101, 115, 255),
+    rgb(111, 114, 247),
+    rgb(120, 114, 239),
+    rgb(130, 113, 231),
+    rgb(139, 112, 223),
+    rgb(149, 111, 215),
+    rgb(158, 111, 208),
+    rgb(168, 110, 200),
+    rgb(177, 109, 192),
+    rgb(187, 108, 184),
+    rgb(196, 108, 176),
+    rgb(206, 107, 168)
+  );
+  color: white;
+}
+.text_message:after {
+  left: 100%;
+  top: calc(50% - -10px);
+  border: solid transparent;
+  content: "";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(136, 183, 213, 0);
+  border-left-color: rgb(168, 110, 200);
+  border-width: 10px;
+  margin-top: -20px;
+}
